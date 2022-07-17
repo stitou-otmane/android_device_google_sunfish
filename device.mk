@@ -14,6 +14,24 @@
 # limitations under the License.
 #
 
+GAPPS_VARIANT := pico
+GAPPS_EXCLUDED_PACKAGES := \
+    GoogleBackupTransport \
+    GoogleContactsSyncAdapter \
+    GoogleFeedback \
+    GoogleOneTimeInitializer \
+    GooglePartnerSetup \
+    GoogleLoginService \
+    SetupWizard \
+    Phonesky \
+    GoogleCalendarSyncAdapter \
+    GoogleTTS \
+    GooglePackageInstaller \
+    Turbo \
+    AndroidPlatformServices \
+    GmsCoreSetupPrebuilt \
+    AndroidMigratePrebuilt
+
 LOCAL_PATH := device/google/sunfish
 
 PRODUCT_VENDOR_MOVE_ENABLED := true
@@ -917,3 +935,6 @@ include hardware/google/pixel/common/pixel-common-device.mk
 
 # enable retrofit virtual A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota_retrofit.mk)
+
+# add gapps
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)

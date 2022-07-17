@@ -30,8 +30,7 @@ GAPPS_EXCLUDED_PACKAGES := \
     Turbo \
     AndroidPlatformServices \
     GmsCoreSetupPrebuilt \
-    AndroidMigratePrebuilt \
-    GCS
+    AndroidMigratePrebuilt
 
 LOCAL_PATH := device/google/sunfish
 

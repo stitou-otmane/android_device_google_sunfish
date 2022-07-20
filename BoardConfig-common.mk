@@ -228,3 +228,6 @@ BOARD_SUPER_PARTITION_ERROR_LIMIT := 9231663104
 -include vendor/google_devices/sunfish/proprietary/BoardConfigVendor.mk
 
 -include device/google/sunfish/BoardConfig-lineage.mk
+
+BOARD_AVB_ALGORITHM := SHA256_RSA2048
+BOARD_AVB_KEY_PATH := /home/admin/.android-certs/releasekey.key

@@ -122,4 +122,48 @@
         <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
     </exception>
+
+    <exception package="com.tokensecure.chat">
+        <permission name="android.permission.ACCESS_NETWORK_STATE" fixed="false"/>
+        <permission name="android.permission.INTERNET" fixed="false"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
+        <permission name="android.permission.VIBRATE" fixed="false"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+        <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
+        <permission name="android.permission.CAMERA" fixed="false"/>
+        <permission name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" fixed="false"/>
+        <permission name="android.permission.WAKE_LOCK" fixed="false"/>
+        <permission name="android.permission.REQUEST_INSTALL_PACKAGES" fixed="false"/>
+    </exception>
+
+    <exception package="com.tokensecure.call">
+        <permission name="android.permission.ACCESS_NETWORK_STATE" fixed="false"/>
+        <permission name="android.permission.INTERNET" fixed="false"/>
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
+        <permission name="android.permission.VIBRATE" fixed="false"/>
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+        <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
+        <permission name="android.permission.CAMERA" fixed="false"/>
+        <permission name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" fixed="false"/>
+        <permission name="android.permission.WAKE_LOCK" fixed="false"/>
+        <permission name="android.permission.REQUEST_INSTALL_PACKAGES" fixed="false"/>
+
+        <permission name="android.permission.USE_SIP" fixed="false"/>
+        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+        <permission name="android.permission.ACCESS_WIFI_STATE" fixed="false"/>
+        <permission name="android.permission.CALL_PHONE" fixed="false"/>
+        <permission name="android.permission.READ_CONTACTS" fixed="false"/>
+        <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
+        <permission name="android.permission.MODIFY_AUDIO_SETTINGS" fixed="false"/>
+        <permission name="android.permission.WRITE_SETTINGS" fixed="false"/>
+        <permission name="android.permission.REORDER_TASKS" fixed="false"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED" fixed="false"/>
+        <permission name="android.permission.DISABLE_KEYGUARD" fixed="false"/>
+        <permission name="android.permission.READ_LOGS" fixed="false"/>
+        <permission name="android.permission.WRITE_CALL_LOG" fixed="false"/>
+        <permission name="android.permission.BROADCAST_STICKY" fixed="false"/>
+        <permission name="android.permission.READ_PROFILE" fixed="false"/>
+        <permission name="android.permission.AUTHENTICATE_ACCOUNTS" fixed="false"/>
+        <permission name="com.tokensecure.call.android.permission.CONFIGURE_SIP" fixed="false"/>
+    </exception>
 </exceptions>

@@ -14,10 +14,6 @@
 # limitations under the License.
 #
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap \
-
 # Display
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys-intf/display \
